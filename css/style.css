@@ -327,7 +327,7 @@ nav .sns li{
 /*---------------   メイン       ---------------------*/
 .main{
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 	position: relative;
 }
 
@@ -566,9 +566,11 @@ nav .sns li{
 .how .how-title{
 	width: 5%;
 	width: 300px;
+	position: relative;
 }
 
 .how-title h1{
+	position: absolute;
 	transform: rotate(90deg);
 	font-weight: normal;
 	letter-spacing: 5px;
@@ -576,6 +578,11 @@ nav .sns li{
 	text-align: left;
 	margin-top: 90px;
 	width: 300px;
+}
+
+.container .how .how-title img{
+	transform: rotate(90deg);
+	object-fit: cover;
 }
 
 .how .how-text{
@@ -699,9 +706,6 @@ nav .sns li{
 		width: 80%;
 	}
 
-	
-
-
 	.how{
 		flex-wrap: wrap;
 	}
@@ -710,10 +714,6 @@ nav .sns li{
 		margin: 0;
 		width: 20%;
 		position: relative;
-	}
-	.container .how .how-title h1{
-		margin: 0;
-		height: 0;
 	}
 	
 	.container .how .how-text{
@@ -735,15 +735,6 @@ nav .sns li{
 
 
 /*---------------   インタビュー       ---------------------*/
-
-.inter-title h1{
-	transform: rotate(90deg);
-	font-weight: normal;
-	letter-spacing: 5px;
-	padding-left: 130px;
-	padding-bottom: 80px;
-}
-
 .interview{
 	width:100%;
 	height: 100vh;
@@ -753,6 +744,13 @@ nav .sns li{
 
 .inter-title{
 	width: 20%;
+}
+.inter-title h1{
+	transform: rotate(90deg);
+	font-weight: normal;
+	letter-spacing: 5px;
+	padding-left: 130px;
+	padding-bottom: 80px;
 }
 
 .slider{
@@ -806,7 +804,7 @@ nav .sns li{
 /*---------------   フッター    ---------------------*/
 footer{
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 	background-color: #f883aa;
 }
 
@@ -878,7 +876,7 @@ footer .copy-sns li{
 /*---------------   コンタクト    ---------------------*/
 
 .bg-slider {
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	background-position:center center;
 	background-size: cover;
@@ -897,7 +895,7 @@ footer .copy-sns li{
 
 
 .a {
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	background-position:center center;
 	background-size: cover;
