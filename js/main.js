@@ -67,12 +67,12 @@ $(function(){
         var scroll = $(window).scrollTop();         //スクロールの座標代入
         var windowHeight = $(window).height();      //画面のサイズ代入
         if(window.matchMedia("(max-width: 768px)").matches){
-        if (scroll > targetElement - windowHeight + 200){ //もしスクロール量＞fadeinからtopまでの高さー画面の高さ＋２００なら
+        if (scroll > targetElement - windowHeight){ //もしスクロール量＞fadeinからtopまでの高さー画面の高さ＋２００なら
           $(this).css('opacity','1');               //透明度MAXにして表示
           $(this).css('transform','translateY(0)'); //Y座標0にする
         }
       }else{ 
-        if (scroll > targetElement - windowHeight){ //もしスクロール量＞fadeinからtopまでの高さー画面の高さ＋２００なら
+        if (scroll > targetElement - windowHeight + 200){ //もしスクロール量＞fadeinからtopまでの高さー画面の高さ＋２００なら
           $(this).css('opacity','1');               //透明度MAXにして表示
           $(this).css('transform','translateY(0)'); //Y座標0にする
         }
@@ -86,12 +86,12 @@ $(function(){
         var scroll = $(window).scrollTop();         //スクロールの座標代入
         var windowHeight = $(window).height();      //画面のサイズ代入
         if(window.matchMedia("(max-width: 768px)").matches){
-          if (scroll > targetElement - windowHeight + 200){ //もしスクロール量＞fadeinからtopまでの高さー画面の高さ＋２００なら
+          if (scroll > targetElement - windowHeight){ //もしスクロール量＞fadeinからtopまでの高さー画面の高さ＋２００なら
             $(this).css('opacity','1');               //透明度MAXにして表示
             $(this).css('transform','translateY(0)'); //Y座標0にする
           }
         }else{ 
-          if (scroll > targetElement - windowHeight){ //もしスクロール量＞fadeinからtopまでの高さー画面の高さ＋２００なら
+          if (scroll > targetElement - windowHeight + 200){ //もしスクロール量＞fadeinからtopまでの高さー画面の高さ＋２００なら
             $(this).css('opacity','1');               //透明度MAXにして表示
             $(this).css('transform','translateY(0)'); //Y座標0にする
           }
@@ -104,12 +104,12 @@ $(function(){
         var scroll = $(window).scrollTop();         //スクロールの座標代入
         var windowHeight = $(window).height();      //画面のサイズ代入
         if(window.matchMedia("(max-width: 768px)").matches){
-          if (scroll > targetElement - windowHeight + 200){ //もしスクロール量＞fadeinからtopまでの高さー画面の高さ＋２００なら
+          if (scroll > targetElement - windowHeight){ //もしスクロール量＞fadeinからtopまでの高さー画面の高さ＋２００なら
             $(this).css('opacity','1');               //透明度MAXにして表示
             $(this).css('transform','translateY(0)'); //Y座標0にする
           }
         }else{ 
-          if (scroll > targetElement - windowHeight){ //もしスクロール量＞fadeinからtopまでの高さー画面の高さ＋２００なら
+          if (scroll > targetElement - windowHeight + 200){ //もしスクロール量＞fadeinからtopまでの高さー画面の高さ＋２００なら
             $(this).css('opacity','1');               //透明度MAXにして表示
             $(this).css('transform','translateY(0)'); //Y座標0にする
           }
