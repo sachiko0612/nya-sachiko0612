@@ -971,3 +971,14 @@ footer .copy-sns li{
 	0%, 20% { transform: translateX(0); }
 	50%, 70% { transform: translateX(260px); }
   }
+
+  /*-------------------------*/
+  @media(max-width:768px){
+	#img-left {
+		object-position: 10% 50%;
+	}
+	#img-right {
+		object-position: 90% 50%;
+	}
+
+  }
