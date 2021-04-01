@@ -757,9 +757,14 @@ nav .sns li{
 	width: 80%;
 }
 
+
 .interview .item{
 	padding-right: 100px;
 	margin-top: 50px;
+}
+
+.interview .item{
+	outline: none;
 }
 
 .interview .item:hover{
